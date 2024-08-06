@@ -1,0 +1,22 @@
+create database marmiteque;
+
+create table marmitex(
+ID_PRATO int primary key,
+Nome VARCHAR(50),
+Valor float,
+Ingredientes varchar(120),
+tamanho char(1)
+);
+
+
+insert into marmitex(ID_PRATO,Nome,Valor,Ingredientes,tamanho)
+values(1,'marmita simples',30.90,'arroz, feijão, pepino, file de frango','p')
+(2,'marmita de rico',30.90,'arroz, feijão, alface, repolho, file de tilapia','m'),
+(3,'marmita de rico',32.90,'arroz, feijão, alface, repolho, file de tilapia','g'),
+(4,'marmita classe media',25.00,'arroz, feijao, repolho, file de gado','m'),
+(5,'marmita classe media',28.00,'arroz, feijao, repolho, file de gado','g'),
+(6,'marmita da massa',22.90,'macarrão, almondega de gado','m'),
+(7,'marmita da massa',25.90,'macarrão, almondega de gado','g'),
+(8,'marmita lassanha',28.50,'arroz, lassanha, salada verde ','m'),
+(9,'marmita lassanha',30.50,'arroz, lassanha, salada verde ','g'),
+(10,'marmita churras',35.00,'arroz, maionese, vinagrete, carne de gado(alcatra), polenta frita','g')
